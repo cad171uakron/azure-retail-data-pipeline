@@ -1,0 +1,6 @@
+pandas
+numpy
+pyodbc
+sqlalchemy
+azure-storage-blob
+azure-identity

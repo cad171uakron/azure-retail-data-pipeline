@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# Power BI backups
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
