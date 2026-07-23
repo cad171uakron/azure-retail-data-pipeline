@@ -1,20 +1,39 @@
 # Azure Retail Data Pipeline
 
-End-to-end Azure Data Engineering portfolio project.
+## Overview
 
-## Tech Stack
-- Azure Data Lake Storage Gen2
-- Azure Data Factory
-- Azure SQL Database
+## Architecture
+
+CSV Files
+    ↓
+Python ETL (pandas + SQLAlchemy)
+    ↓
+Azure SQL Database
+    ↓
+SQL Views
+    ↓
+Power BI Dashboard
+
+## Technologies
+
 - Python
+- pandas
+- SQLAlchemy
+- Azure SQL Database
+- SQL
 - Power BI
 - Git
 
-Project status:
-- [x] Azure Storage Account
-- [x] Data Lake Containers
-- [ ] Dataset
-- [ ] Azure SQL Database
-- [ ] Azure Data Factory
-- [ ] Python ETL
-- [ ] Power BI Dashboard
+## Dashboard
+
+(images)
+
+## How to Run
+
+...
+
+## Future Improvements
+
+- Azure Data Factory
+- Azure Blob Storage
+- Scheduled ETL
